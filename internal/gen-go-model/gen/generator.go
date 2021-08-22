@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Nekitosss/dbml-go/core"
+	"github.com/Nekitosss/dbml-go/internal/gen-go-model/genutil"
 	"github.com/dave/jennifer/jen"
-	"github.com/duythinht/dbml-go/core"
-	"github.com/duythinht/dbml-go/internal/gen-go-model/genutil"
 )
 
 type generator struct {
