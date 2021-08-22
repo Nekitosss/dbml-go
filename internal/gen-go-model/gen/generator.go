@@ -210,7 +210,7 @@ var (
 		"rune":      jen.Rune(),
 		"timestamp": jen.Int(),
 		"datetime":  jen.Qual("time", "Time"),
-		"uuid":      jen.Qual("uuid", "UUID"),
+		"uuid":      jen.Qual("github.com/google/uuid", "UUID"),
 	}
 )
 
