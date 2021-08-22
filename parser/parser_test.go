@@ -22,6 +22,37 @@ func TestIllegalSyntax(t *testing.T) {
 	}
 }
 
+func TestExpression(t *testing.T) {
+	parser := p(`
+	Table "table_name" {
+		"column" text
+	  
+		Indexes {
+	` +
+		"`lower(column)` [type: btree, name: \"user_email_lower_idx\"]" +
+		`}
+	  }
+	`)
+
+	_, err := parser.Parse()
+	if err != nil {
+		t.Error(err)
+	}
+}
+
+func TestUUID(t *testing.T) {
+	parser := p(`
+	Table "table_name" {
+		"column" uuid
+	  }
+	`)
+
+	_, err := parser.Parse()
+	if err != nil {
+		t.Error(err)
+	}
+}
+
 func TestParseSimple(t *testing.T) {
 	parser := p(`
 	Project test {

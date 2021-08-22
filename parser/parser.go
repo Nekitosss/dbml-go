@@ -321,7 +321,7 @@ func (p *Parser) parseIndex() (*core.Index, error) {
 		}
 	} else if p.token == token.IDENT {
 		index.Fields = append(index.Fields, p.lit)
-	} else {
+	} else if p.token != token.EXPR {
 		return nil, p.expect("field_name")
 	}
 
