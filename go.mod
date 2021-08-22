@@ -1,4 +1,4 @@
-module github.com/Nekitosss/dbml-go
+module github.com/Nekitosss/dbml-go-n
 
 go 1.14
 

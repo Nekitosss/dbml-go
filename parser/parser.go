@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Nekitosss/dbml-go/core"
-	"github.com/Nekitosss/dbml-go/scanner"
-	"github.com/Nekitosss/dbml-go/token"
+	"github.com/Nekitosss/dbml-go-n/core"
+	"github.com/Nekitosss/dbml-go-n/scanner"
+	"github.com/Nekitosss/dbml-go-n/token"
 )
 
 // Parser declaration

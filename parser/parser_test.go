@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Nekitosss/dbml-go/scanner"
+	"github.com/Nekitosss/dbml-go-n/scanner"
 )
 
 func p(str string) *Parser {

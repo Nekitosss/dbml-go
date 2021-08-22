@@ -11,9 +11,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Nekitosss/dbml-go/core"
-	"github.com/Nekitosss/dbml-go/parser"
-	"github.com/Nekitosss/dbml-go/scanner"
+	"github.com/Nekitosss/dbml-go-n/core"
+	"github.com/Nekitosss/dbml-go-n/parser"
+	"github.com/Nekitosss/dbml-go-n/scanner"
 )
 
 const (

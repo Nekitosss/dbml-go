@@ -1,6 +1,6 @@
 package core
 
-import "github.com/Nekitosss/dbml-go/token"
+import "github.com/Nekitosss/dbml-go-n/token"
 
 // DBML structure
 type DBML struct {

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/Nekitosss/dbml-go/internal/gen-go-model/gen"
+	"github.com/Nekitosss/dbml-go-n/internal/gen-go-model/gen"
 	"github.com/spf13/cobra"
 )
 

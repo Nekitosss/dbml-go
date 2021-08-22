@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Nekitosss/dbml-go/core"
-	"github.com/Nekitosss/dbml-go/internal/gen-go-model/genutil"
+	"github.com/Nekitosss/dbml-go-n/core"
+	"github.com/Nekitosss/dbml-go-n/internal/gen-go-model/genutil"
 	"github.com/dave/jennifer/jen"
 )
 
